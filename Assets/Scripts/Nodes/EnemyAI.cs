@@ -45,9 +45,9 @@ namespace MyBt
             RangeNode chasingRangeNode = new RangeNode(chasingRange, player, transform);
             Sequence chaseSequence = new Sequence(new List<Node>() { chasingRangeNode, chaseNode });
 
-            RangeNode shootingRangeNode = new RangeNode(shootingRange, player,transform);
-            ShootNode shootNode = new ShootNode(agent, this);
-            Sequence shootSequence = new Sequence(new List<Node>() { shootingRangeNode, shootNode });
+            //RangeNode shootingRangeNode = new RangeNode(shootingRange, player,transform);
+            //ShootNode shootNode = new ShootNode(agent, this);
+            //Sequence shootSequence = new Sequence(new List<Node>() { shootingRangeNode, shootNode });
 
             HealthNode healthNode = new HealthNode(this, lowHealthThreshold);
             IsCoverAvaliableNode coverAvaliableNode = new IsCoverAvaliableNode(avaliableCovers, player, this);
@@ -58,7 +58,7 @@ namespace MyBt
             Selector tryToTakeCoverSelector= new Selector(new List<Node>() {isCoverNode,findCoverSelector });
             Sequence coverSequence = new Sequence(new List<Node>() { healthNode, tryToTakeCoverSelector });
 
-            topNode = new Selector(new List<Node>() { coverSequence, shootSequence, chaseSequence });
+            topNode = new Selector(new List<Node>() { coverSequence,chaseSequence });
         }
 
         // Update is called once per frame
