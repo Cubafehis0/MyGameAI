@@ -1,0 +1,2674 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.21f1c1 (ae728190a658) revision 11432577'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home China; OS build 19042.1466; Version 2009; 64bit' Language: 'zh' Physical Memory: 16298 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Admin/Desktop/GameProject/AI Learn
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51839
+Successfully changed project path to: C:/Users/Admin/Desktop/GameProject/AI Learn
+C:/Users/Admin/Desktop/GameProject/AI Learn
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 24.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1c1 (ae728190a658)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Desktop/GameProject/AI Learn/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5968 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001037 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (810ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (337ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (787ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 2.654300 ms (FindLiveObjects: 0.123600 ms CreateObjectMapping: 0.038400 ms MarkObjects: 2.417500 ms  DeleteObjects: 0.074100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/fsm.unity
+  artifactKey: Guid(f9b2e483a8bf20642a6f80ba631d326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fsm.unity using Guid(f9b2e483a8bf20642a6f80ba631d326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff5c2776781694adb0d1aacf55abd47') in 0.012807 seconds 
+  Import took 0.014824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.477161 seconds.
+  path: Assets/Scenes/bt.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/bt.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6f9cbc7ed781bafc365ab1295a37eb') in 0.004360 seconds 
+  Import took 0.006356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.926211 seconds.
+  path: Assets/Scenes/fsm
+  artifactKey: Guid(16eadc3bfc99d7641a8142870140eaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fsm using Guid(16eadc3bfc99d7641a8142870140eaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f17f89e89aaa9d63480349d9af17df') in 0.006703 seconds 
+  Import took 0.008736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301653 seconds.
+  path: Assets/Scenes/fsm/NavMesh.asset
+  artifactKey: Guid(792740e9a07de074ab6a6f432e16643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fsm/NavMesh.asset using Guid(792740e9a07de074ab6a6f432e16643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef0bc215befd32615729e0080cec53c') in 0.018282 seconds 
+  Import took 0.020236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.132373 seconds.
+  path: Assets/Scenes/fs.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fs.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d457cffc31bd14fa14fa62e2889be02') in 0.004205 seconds 
+  Import took 0.006196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.111510 seconds.
+  path: Assets/Scenes/BS.unity
+  artifactKey: Guid(f9b2e483a8bf20642a6f80ba631d326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BS.unity using Guid(f9b2e483a8bf20642a6f80ba631d326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61231f4e4c5da2c959acb9f8f4343aa') in 0.004521 seconds 
+  Import took 0.008050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.064886 seconds.
+  path: Assets/Scenes/FSM.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FSM.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470274fde208d95810116f2ba463de70') in 0.004520 seconds 
+  Import took 0.006753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.986881 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3dca62dd10873e697cc75402c35c9f9') in 0.009459 seconds 
+  Import took 0.011560 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.219700 ms (FindLiveObjects: 0.125000 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.041900 ms  DeleteObjects: 0.012700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.057963 seconds.
+  path: Assets/Scripts/FSM/State.cs
+  artifactKey: Guid(cb5e1d805291c9843b37814be42b41bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/State.cs using Guid(cb5e1d805291c9843b37814be42b41bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503b7580c760443df055d66f160317a6') in 0.006824 seconds 
+  Import took 0.009129 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (870ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 3.193700 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.150800 ms MarkObjects: 2.694500 ms  DeleteObjects: 0.019900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (773ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (626ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 2.300900 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.045600 ms MarkObjects: 2.094500 ms  DeleteObjects: 0.014300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 458.472643 seconds.
+  path: Assets/Scripts/FSM/State.cs
+  artifactKey: Guid(cb5e1d805291c9843b37814be42b41bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/State.cs using Guid(cb5e1d805291c9843b37814be42b41bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d9e07f03aafc066479f104fff25595') in 0.003361 seconds 
+  Import took 0.007057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.632484 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e943c24a56d49731d06e490691020405') in 0.004465 seconds 
+  Import took 0.006425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.604864 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1424b267162e6af09b59b1fa61c5971d') in 0.001446 seconds 
+  Import took 0.003371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.566146 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38961f4a7d78cd4111660c50845024a') in 0.001452 seconds 
+  Import took 0.003356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.889009 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc248461a4a054599905a5deae27ee36') in 0.001630 seconds 
+  Import took 0.003830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.616293 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac43d5f124db2c4d25540291da3a7ea3') in 0.001395 seconds 
+  Import took 0.003292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.185932 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdd2120f20061e80d041605138f3002') in 0.001396 seconds 
+  Import took 0.003678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.703182 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acc9c832964cdf65150c056877ff01b') in 0.001499 seconds 
+  Import took 0.003394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.841040 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238799fc755d33b5dc44099c6eb4afaa') in 0.001421 seconds 
+  Import took 0.003420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.141080 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857b0e2bf5017922658888d0dfbe66ac') in 0.001397 seconds 
+  Import took 0.003303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.990372 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489026d5237fc6fbac5ac2bf8d987530') in 0.001561 seconds 
+  Import took 0.003548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.479201 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4594bbccbcf4ecc850d2f2590e84d0') in 0.001535 seconds 
+  Import took 0.003609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.311363 seconds.
+  path: Assets/Scripts/FSM/Transition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/Transition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785e74a9aca80560965ec61e34adc9ba') in 0.001505 seconds 
+  Import took 0.003584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.695875 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a4094db3cfb6d638b367cca4b9f52b') in 0.004789 seconds 
+  Import took 0.006955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.972074 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167bb9a383cefaf21e1dd8f86b4c7008') in 0.001646 seconds 
+  Import took 0.003703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 509.356929 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c6da7a2728f3f99dc74d8a872a269f') in 0.001577 seconds 
+  Import took 0.003845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.348259 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a672de25047f972973b4451bc9a8487d') in 0.001559 seconds 
+  Import took 0.003516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.243364 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09b7471cb037d54b7e254c89374ac94') in 0.001434 seconds 
+  Import took 0.003379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.345733 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f744e543fbcb048c1ec9f2412fc565') in 0.001404 seconds 
+  Import took 0.003505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.795640 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4133e99964b5c7dd225ceb96587ff4a3') in 0.001450 seconds 
+  Import took 0.003359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.981344 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031f70dcb264508943a4cdb7ca32468c') in 0.001520 seconds 
+  Import took 0.003624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.644740 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3a73c19afb435e635d6b7482050896') in 0.001407 seconds 
+  Import took 0.003393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.670309 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a069e176cd2a9eb2b46edc9ce3aca6e') in 0.001670 seconds 
+  Import took 0.004227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.043596 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5cc948dec98bdc37ec3edf5af9e92e') in 0.001502 seconds 
+  Import took 0.003396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.262888 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fac066cfc8be87eeaf16d7f7af61862') in 0.001538 seconds 
+  Import took 0.003715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.195725 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47778829ba012ef6900c83ebec1e0bbc') in 0.001516 seconds 
+  Import took 0.003576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.923911 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18af8d9d3fa2f11128c10ed99428afab') in 0.004042 seconds 
+  Import took 0.006170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.987113 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a458098186ff039ce9356b2d37e8c80a') in 0.001495 seconds 
+  Import took 0.005279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.576646 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc5e62ef588e02ce27f9073e169829d') in 0.001540 seconds 
+  Import took 0.003731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.819709 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e1ce90051c4a26e93e85dfbee13d64') in 0.001508 seconds 
+  Import took 0.003450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.672879 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eade919ae44e4448e7530cffa154a206') in 0.001395 seconds 
+  Import took 0.003282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.703141 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb1841ac038e3815de5d001ead6c96d') in 0.001580 seconds 
+  Import took 0.003566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.696553 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a85299e1df310684df51c98545c8187') in 0.001408 seconds 
+  Import took 0.003269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.597259 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de02d38a0bb185a9d46c8688bd94606') in 0.001492 seconds 
+  Import took 0.003433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.792951 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9796434cfc65e1d8a89c965b6d6d746') in 0.001417 seconds 
+  Import took 0.003356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.052134 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae7171993372c192fe2140f387224d7') in 0.001453 seconds 
+  Import took 0.003391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.482272 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd86b6df6ac072afa5c59a8a4f54183') in 0.001525 seconds 
+  Import took 0.003426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.172277 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94547096bc254b1798206d1698bb1710') in 0.001421 seconds 
+  Import took 0.003363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.076425 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69058aec35b5ec12b1a43517b810546') in 0.001376 seconds 
+  Import took 0.003307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.482927 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7462cf955348543377d4abad3f3610f') in 0.001399 seconds 
+  Import took 0.003413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.012427 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f82367d1ffc7c812831b5d6a30cae45') in 0.001384 seconds 
+  Import took 0.003274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.882724 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6534aa58c47723ff39805a1d71df5b42') in 0.001458 seconds 
+  Import took 0.003374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.772843 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1c5fb7b70edd0e57bc45b94d643243') in 0.001457 seconds 
+  Import took 0.004908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.473881 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb51567776125410daca0fdc73a61f0') in 0.001409 seconds 
+  Import took 0.003286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.584504 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57da6bb6ef7e1e8225c6af9e780b82f') in 0.001423 seconds 
+  Import took 0.003319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.674621 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab548a1a3f10c09065e9916b77010eee') in 0.001402 seconds 
+  Import took 0.003332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.467635 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46efc1f0dd1502cae73451a78bff96f0') in 0.001354 seconds 
+  Import took 0.003224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.881519 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b02ae92708474ba1cc04def1b910af') in 0.001371 seconds 
+  Import took 0.003299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.487079 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1f5e8bf21a276e23fd5bd2b84aaabf') in 0.001429 seconds 
+  Import took 0.003332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.298424 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69e0dac14526c0f4aff4ee00b5a4565') in 0.001409 seconds 
+  Import took 0.003291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.674554 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b161ce7d05c192ed60c1f430187e2446') in 0.001441 seconds 
+  Import took 0.003327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711222 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda8d73436f4798ac8c3017c1857adda') in 0.001404 seconds 
+  Import took 0.003299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.714524 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b529ea6c252364ac2aff93ddedf6d6') in 0.001378 seconds 
+  Import took 0.003253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.085799 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a330b8c764f6f9080df488cb9665f1b') in 0.001423 seconds 
+  Import took 0.003334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.906298 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c15b2004598e8482b9dfe2643136eac') in 0.001442 seconds 
+  Import took 0.003334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.820063 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923643b007a9c835582584a38ef3ffd1') in 0.001493 seconds 
+  Import took 0.003445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.222093 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd08582ae96fc0441b9565469b250186') in 0.001470 seconds 
+  Import took 0.003431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.085851 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a31bd9218d0e0f125bdca76d6b80c54') in 0.001402 seconds 
+  Import took 0.003257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.173897 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e97dd0feef912183a86ec45bb2258ce') in 0.001485 seconds 
+  Import took 0.003396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.884123 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ad829fec5a7386790760ea2307ec08') in 0.001414 seconds 
+  Import took 0.003295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.806641 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319d54f99658c4d77e7c83f567282b52') in 0.001393 seconds 
+  Import took 0.003273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.780960 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042bf09f6e996a3c1dc7a19b67465e86') in 0.001383 seconds 
+  Import took 0.003255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.566286 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f907856fdc0391a5e9e0fdc39d0a438') in 0.001431 seconds 
+  Import took 0.003295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.504947 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c466f229e44398d85688b2b7539ba33') in 0.001432 seconds 
+  Import took 0.003337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.484763 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7777fc8f3903a2a1c10419cc829b664') in 0.001488 seconds 
+  Import took 0.003491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.006527 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd46b8f72b6b24fe917db2293e347da4') in 0.001380 seconds 
+  Import took 0.003267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.892287 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a2d37b3932a047b989960e4b572c9c') in 0.001448 seconds 
+  Import took 0.003462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.630435 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0344b97f9f552ae93afaffd840660c8d') in 0.001393 seconds 
+  Import took 0.003289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.916666 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55600720eef3742675a61c4cbf0ef611') in 0.001641 seconds 
+  Import took 0.003626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.174238 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d27a2f7f54de5a48558b95c1b22ad34') in 0.001576 seconds 
+  Import took 0.003695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.003313 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd00611271c5a266a2ecffe6498f0d29') in 0.001542 seconds 
+  Import took 0.003436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.589298 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e437c6581fa5ab0eddc9db10ca32f6e5') in 0.001528 seconds 
+  Import took 0.003460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.011239 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1414bd66eb3321f5f82c763cca3541ec') in 0.001326 seconds 
+  Import took 0.003191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.575256 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f9fb8aa46d00155ec29349ecb7f0ae') in 0.001495 seconds 
+  Import took 0.003362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.081412 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a033cf108d13d36b733c8eef82760fdc') in 0.001411 seconds 
+  Import took 0.003338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.907626 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba5268f623815ef2ff07be6e8e04e1e') in 0.001423 seconds 
+  Import took 0.003350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.001799 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9c8b4e62dc7d800fa416f3ef77362d') in 0.001398 seconds 
+  Import took 0.003270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.901880 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdf73fdda1143ee608a99b9c36b0f23') in 0.001393 seconds 
+  Import took 0.003335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.705533 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9feb6f015c0b885075fe02f398617854') in 0.001472 seconds 
+  Import took 0.003511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.513625 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0724501381ad20904a93aee779db4241') in 0.001453 seconds 
+  Import took 0.003423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.560302 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fe9b39ca7bbd94ac498d4713cff652') in 0.001352 seconds 
+  Import took 0.003278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.307804 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e085b2ba981f16197db823bc67eebd4') in 0.001443 seconds 
+  Import took 0.003402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.829284 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3024b9052a294dbe4191e1c1ecd0ff4a') in 0.001350 seconds 
+  Import took 0.003270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.801976 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a98c1bb87d9e4dc81b9d12b393adcd') in 0.001409 seconds 
+  Import took 0.003339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.782015 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a835dd43c86517733daeaa540dfc91') in 0.001612 seconds 
+  Import took 0.003641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.191171 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c511712be6a7f6316701b489705a78') in 0.001350 seconds 
+  Import took 0.003247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.562118 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e63bfe3b923d78c78bebab7f5fc957') in 0.001339 seconds 
+  Import took 0.003235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.799084 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b400dde6e8262c44ddf9e789b75f123') in 0.001461 seconds 
+  Import took 0.003358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.941268 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e908fdb06ebba143e71e84bd7d0256d') in 0.001447 seconds 
+  Import took 0.003403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.521952 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e7bf1ed9732e210ccd7f98419b06ca') in 0.001410 seconds 
+  Import took 0.003337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.508933 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117345ab762c4f8305f1176277777d6d') in 0.001385 seconds 
+  Import took 0.003276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.891524 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af77e237f08c94609bd3492bbb66a739') in 0.001413 seconds 
+  Import took 0.003392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.024698 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9528a73c93d70a99a43930e3d5dc24d7') in 0.001365 seconds 
+  Import took 0.003259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.201904 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646ae44248b1ec28164016cbbb51e3bc') in 0.001391 seconds 
+  Import took 0.003338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.509237 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39d2ba681ae543a1a27f58b941b91d2') in 0.001383 seconds 
+  Import took 0.003275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.292338 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3f9e6805757ee5581c941628a9ed7b') in 0.001400 seconds 
+  Import took 0.003407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.016378 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcade1ab3cdca8f6f418caa4a9c9642') in 0.001437 seconds 
+  Import took 0.003386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.995313 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2254a087e50813049ef5275b9950e5') in 0.001330 seconds 
+  Import took 0.003257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.178527 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7e2d8e4c5347c7cafd20b6fb539c87') in 0.001475 seconds 
+  Import took 0.003386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.803524 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b6f087b117fde9c9d328784233ad25') in 0.001369 seconds 
+  Import took 0.003336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.385901 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a58831dfaf2917d17adc0b337b09a6') in 0.001468 seconds 
+  Import took 0.003446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.194179 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213565928a1d067d1222a22b541c0f37') in 0.001494 seconds 
+  Import took 0.003516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.828014 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62ec1f276d3de8c433f6a78f8f4e909') in 0.001408 seconds 
+  Import took 0.003288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.615940 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec1c1dc0ad51e857bf1d2d1c0be7c6f') in 0.001442 seconds 
+  Import took 0.003345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.200225 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fa3b6e303969a0b9aa09457876219a') in 0.001496 seconds 
+  Import took 0.003537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.685962 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5278b5898e1cd28e55ba03b81daa4b9') in 0.001389 seconds 
+  Import took 0.003352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.145412 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941006c3f69fbea5214981694bf3148c') in 0.001393 seconds 
+  Import took 0.003345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.934717 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e31e20e6655c9f962ede57c88cde90') in 0.001370 seconds 
+  Import took 0.003853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.794884 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a886cb27d567a655973c63800c919bd8') in 0.001346 seconds 
+  Import took 0.003252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.610754 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0b0da5aef5c392932dfce60ccd1213') in 0.001422 seconds 
+  Import took 0.003473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.393511 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c81e53d7501722fe6a93b85faa3fa9') in 0.001473 seconds 
+  Import took 0.003367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.091846 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9aa68cc3f4287b4bd0164ff487c70e6') in 0.001422 seconds 
+  Import took 0.003341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.720526 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd588ad00140900536be483e8ab02eb9a') in 0.001365 seconds 
+  Import took 0.003310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.300505 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e399157c09affa29ab73597cd4f6932') in 0.001386 seconds 
+  Import took 0.003250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.135592 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f4ce5e72cae24df25b155f7ab8c36e') in 0.001507 seconds 
+  Import took 0.003441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.087809 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aed14ed777c5de4ab60c9ba68bed02') in 0.001428 seconds 
+  Import took 0.003478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.887021 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537b01b68bd2a4b5007041283eee85b6') in 0.001488 seconds 
+  Import took 0.003476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.181369 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914e8a8b7191d19ea3e2efdbcb6fa287') in 0.001433 seconds 
+  Import took 0.003399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.194915 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166759e5f6ffe370b67cc8fd08008730') in 0.001401 seconds 
+  Import took 0.003271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.797555 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd426dc7514fd7bd5f11b83ef850f5853') in 0.001450 seconds 
+  Import took 0.003393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.915886 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3429b068c65cd1ef6706920d35767fff') in 0.001360 seconds 
+  Import took 0.003345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.794883 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fb87bf122e709386fd7bd859acefa7') in 0.001422 seconds 
+  Import took 0.003362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.772504 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbad5515e368fbab45752f4a93a0ac1f') in 0.001455 seconds 
+  Import took 0.003422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.327054 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fad23b0769c751c95108860119fe4a') in 0.001612 seconds 
+  Import took 0.003804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.124479 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6518de8f9238b101ff27555cac0100cf') in 0.001404 seconds 
+  Import took 0.003291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.004816 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f0f0f2e15df13ce96d1aba7c4859e1') in 0.001563 seconds 
+  Import took 0.003902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.769479 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01195770f70c18a7e3cc29e8f35e0e47') in 0.001402 seconds 
+  Import took 0.003297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.370078 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb9748d4548e75305c1a995739c851a') in 0.001366 seconds 
+  Import took 0.003275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.511905 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f18703806dd8ba55f87b0260a87fc4f') in 0.001402 seconds 
+  Import took 0.003300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.399201 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a393ada05b0c3dc61206527b9652e5') in 0.001490 seconds 
+  Import took 0.003403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.644068 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e70565c569d173a07cbd1d40fd9a172') in 0.001389 seconds 
+  Import took 0.003266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.007476 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0fa11ccdca496feaf6da1525e88796') in 0.001370 seconds 
+  Import took 0.003340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.786076 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3e4f65db6c028334603ec65e172bdf') in 0.001331 seconds 
+  Import took 0.003214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572002 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf7a4ddd5fe7c308b86eb22e7ea0b43') in 0.001386 seconds 
+  Import took 0.003382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.578613 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cb113f00bfef2f9187eb93c9dbbab1') in 0.001358 seconds 
+  Import took 0.003327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.390970 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827e2b35d5cc85f5b03c365c095c8eb4') in 0.001387 seconds 
+  Import took 0.003287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.072337 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ec3b62205df0243f62852edc13eada') in 0.001485 seconds 
+  Import took 0.003428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.471844 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771ecccb44687c3899d6edec17a5acdb') in 0.001452 seconds 
+  Import took 0.003811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.233965 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482032f449b62c12ab3b48322232ad3d') in 0.001456 seconds 
+  Import took 0.003435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.890869 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c451a2b60fafb86df7190378c31d98c6') in 0.001416 seconds 
+  Import took 0.003339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.703910 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5696955d3436dafb19929caeb2cc5761') in 0.001458 seconds 
+  Import took 0.003403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.677811 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e678a3b15c364c619eac53477124c0') in 0.001563 seconds 
+  Import took 0.003511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.604043 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073e75034bdb3265708e4b9ca05c7368') in 0.001380 seconds 
+  Import took 0.003405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.481093 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef975fc83ff663608cbbe8761658c22c') in 0.001401 seconds 
+  Import took 0.003370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.697204 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc35a1e7b0cd7e59a620a61ee6b1478c') in 0.001338 seconds 
+  Import took 0.003265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.581520 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e9ee7020bb7f83209e2e62a3eb935c') in 0.001420 seconds 
+  Import took 0.003406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.570557 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78b4e0bf6a2c9a8a888ff18a1b74f27') in 0.001421 seconds 
+  Import took 0.003319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.030295 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3a680d872a2af5529d17c3ddae6a35') in 0.001292 seconds 
+  Import took 0.003207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.796170 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1601482b78459fb11bc5878f714650ff') in 0.001397 seconds 
+  Import took 0.003336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.504767 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d8ebbb5a09d370e1fd60c96b8e827e') in 0.001354 seconds 
+  Import took 0.003277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.290690 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e44023b3cf4f3336d5c61ca156d851a') in 0.001412 seconds 
+  Import took 0.003337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.291924 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ee8877b945bc41aa7dd57a6ef78902') in 0.001413 seconds 
+  Import took 0.003352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.578468 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989a16c3abca5ae3e2d785c6efc82571') in 0.001356 seconds 
+  Import took 0.003322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.394410 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc8db8ad294b536c5af97d580cf5567') in 0.001332 seconds 
+  Import took 0.003289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.773469 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb934b9c40ee6a3b430db3f0a6b2fb1f') in 0.001406 seconds 
+  Import took 0.003308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.312710 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74194e81a7712c02d332e9d527a8bbfc') in 0.001516 seconds 
+  Import took 0.003419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.404257 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74327459920a0b94917f196eb9bcb45d') in 0.001435 seconds 
+  Import took 0.003426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.514292 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902eb647782de5f2442554f6c39ca1fd') in 0.001519 seconds 
+  Import took 0.003468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.698151 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb37d38739df51a924da938f386b76a') in 0.001558 seconds 
+  Import took 0.003574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.511669 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9d032fc99c563053af7b653136672b') in 0.001420 seconds 
+  Import took 0.003416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.607932 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82638d5db7e06920120cda0df2bdc1ad') in 0.001276 seconds 
+  Import took 0.003196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.302907 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183df6368449faf9bdabadf66548bbde') in 0.001303 seconds 
+  Import took 0.003320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.072908 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc7dd626808d331f7da91afb6325d80') in 0.001388 seconds 
+  Import took 0.003553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.103556 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d53a39fec350bf7052308c90e47d81d') in 0.001472 seconds 
+  Import took 0.003416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.231521 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6144fcf53482c11a9ca79a3bf9c453c') in 0.001441 seconds 
+  Import took 0.003369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 585.703171 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fea53103bb3dc161b993fe80dfb313f') in 0.004535 seconds 
+  Import took 0.006954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.022645 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148af3a5e6df2033a7fd9b91fcabbfcc') in 0.001428 seconds 
+  Import took 0.003351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.985872 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3312de1c97d909ddf4f53a7dc14da28b') in 0.001417 seconds 
+  Import took 0.003416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.471572 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c803befda00393872d429c2b6ba4d986') in 0.001452 seconds 
+  Import took 0.003348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.391406 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cab67fe007a1cd44dd42231f603712f') in 0.001380 seconds 
+  Import took 0.003288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.004437 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a1848c1e89d58f80f342d90ff4cb19') in 0.001468 seconds 
+  Import took 0.003452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.538152 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf49ef30d9e8a446a214f9e4fc45095') in 0.001530 seconds 
+  Import took 0.003491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.283453 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096a9f89ee1cf134a30afe5133b1e6ee') in 0.001390 seconds 
+  Import took 0.003284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.804086 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a64bb5f570bc9dc0acf263c60ffb34c') in 0.001391 seconds 
+  Import took 0.003290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.579935 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315af81e53f3e186083910a322584aa9') in 0.001421 seconds 
+  Import took 0.003283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.128172 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07eaca6acb4f9c2012728680dd56ceaa') in 0.001427 seconds 
+  Import took 0.003354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.598968 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb590ef173e8df7f1642b16709b5fead') in 0.001400 seconds 
+  Import took 0.003313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.814837 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b75369a137355a4b1d1dbd71303d6f2') in 0.001396 seconds 
+  Import took 0.003292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.491289 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86adc7a68862353f09d86247dbade7ac') in 0.001471 seconds 
+  Import took 0.003481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.382589 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1ac96889f3efd0d88ed356d7b56adb') in 0.001475 seconds 
+  Import took 0.003397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.684277 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09453681dbb2b8980817db947b3bba3') in 0.001554 seconds 
+  Import took 0.003455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.022800 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8654fd00cfa753ca28a0f44ba9ea23a') in 0.001480 seconds 
+  Import took 0.003374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.224401 seconds.
+  path: Assets/Scripts/FSM/InRangeTranisiton.cs
+  artifactKey: Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/InRangeTranisiton.cs using Guid(3e53ea6126db6b442a8f131472f6e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713dfff696722b612080016df8d41d04') in 0.001416 seconds 
+  Import took 0.003357 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 2.288600 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.041000 ms MarkObjects: 2.101900 ms  DeleteObjects: 0.013800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1315.275738 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f8e6ffb57d78020eb3d61f43e1da5e') in 0.003163 seconds 
+  Import took 0.004867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.061084 seconds.
+  path: Assets/Scripts/FSM/EnemyAI.cs
+  artifactKey: Guid(5d5b756f22ab6fc4eb620d88f350027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/EnemyAI.cs using Guid(5d5b756f22ab6fc4eb620d88f350027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efa141a35a8001582d545bd5e7b3352') in 0.005686 seconds 
+  Import took 0.008276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.437689 seconds.
+  path: Assets/Scripts/FSM/ChaseState.cs
+  artifactKey: Guid(ed16ef3aa0cdf014a8b98082def811c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/ChaseState.cs using Guid(ed16ef3aa0cdf014a8b98082def811c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71ff4b23c6e1c7886ad1443bacf6f18') in 0.005539 seconds 
+  Import took 0.007592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.073142 seconds.
+  path: Assets/Scripts/FSM/PatrolState.cs
+  artifactKey: Guid(e6d3eaeda4946cc4db1a7ed19ff9aa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/PatrolState.cs using Guid(e6d3eaeda4946cc4db1a7ed19ff9aa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626423b2b1e9ef3b09aa07fdf3c0e4d5') in 0.003855 seconds 
+  Import took 0.007914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.377655 seconds.
+  path: Assets/Scripts/FSM/State.cs
+  artifactKey: Guid(cb5e1d805291c9843b37814be42b41bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/State.cs using Guid(cb5e1d805291c9843b37814be42b41bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5a69a4a142313bc16d7e92ba830a4a') in 0.003897 seconds 
+  Import took 0.005957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474820 seconds.
+  path: Assets/Scripts/FSM/StateMachine.cs
+  artifactKey: Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/StateMachine.cs using Guid(df677638609000544bc91b8f3f576626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b88cd450d2b0092aabb12b8e876073') in 0.001531 seconds 
+  Import took 0.003679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.629818 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db12115caf47a1a006c17a2de851f84') in 0.001488 seconds 
+  Import took 0.003380 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002467 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 2.221100 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.034900 ms  DeleteObjects: 0.013400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Domain Reload Profiling:
+	ReloadAssembly (779ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 2.195200 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.040800 ms MarkObjects: 2.016600 ms  DeleteObjects: 0.012000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.893743 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cdc67c6357e779a9661e5cdd4ceb3b') in 0.003345 seconds 
+  Import took 0.005412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.032795 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1f8d1724fd8ffbded92902cdf0963a') in 0.001529 seconds 
+  Import took 0.003459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.808734 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcd880549d818fff01c9a6102d08374') in 0.001624 seconds 
+  Import took 0.003523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.536499 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e908f349bec220c1eb0932ba3c9d7b5') in 0.001757 seconds 
+  Import took 0.003769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.389931 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908d36ac9127283050f7d7f3a4bc3ae0') in 0.001475 seconds 
+  Import took 0.003378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.624494 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca9e1958008e511be615ebbf0e5c347') in 0.001524 seconds 
+  Import took 0.003591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (773ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (628ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 2.206800 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.037600 ms MarkObjects: 2.017100 ms  DeleteObjects: 0.012100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.738689 seconds.
+  path: Assets/Scripts/FSM/FSMTransition.cs
+  artifactKey: Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM/FSMTransition.cs using Guid(7d35eae44a3216e44b150058c29c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef428d54321e28c0114209d489c01ed') in 0.003416 seconds 
+  Import took 0.005353 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002408 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (792ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1958.
+Total: 2.644200 ms (FindLiveObjects: 0.158400 ms CreateObjectMapping: 0.047100 ms MarkObjects: 2.420800 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 2.224700 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.040000 ms MarkObjects: 2.041000 ms  DeleteObjects: 0.011800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Domain Reload Profiling:
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 2.243000 ms (FindLiveObjects: 0.130400 ms CreateObjectMapping: 0.040100 ms MarkObjects: 2.060700 ms  DeleteObjects: 0.011200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.520400 ms (FindLiveObjects: 0.143900 ms CreateObjectMapping: 0.038800 ms MarkObjects: 2.325200 ms  DeleteObjects: 0.011700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Domain Reload Profiling:
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 2.260200 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.040700 ms MarkObjects: 2.077500 ms  DeleteObjects: 0.011900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 68.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 2.256200 ms (FindLiveObjects: 0.125700 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.077200 ms  DeleteObjects: 0.012400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 68.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 2.360100 ms (FindLiveObjects: 0.146300 ms CreateObjectMapping: 0.039300 ms MarkObjects: 2.161800 ms  DeleteObjects: 0.012000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.9 MB.
+System memory in use after: 68.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 2.252800 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.042000 ms MarkObjects: 2.066800 ms  DeleteObjects: 0.012500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002547 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Domain Reload Profiling:
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.9 MB.
+System memory in use after: 68.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 2.388700 ms (FindLiveObjects: 0.134500 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.200700 ms  DeleteObjects: 0.012900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
